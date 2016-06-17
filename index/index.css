@@ -17,12 +17,16 @@ ol, ul, li{
  **********************/ 
 .menu {
     padding: 0 0 10px 0;
-    background: #888;
+    background: rgb(241, 243, 243);
+}
+.menu a {
+    color: rgb(102, 102, 102);
 }
 .menu .row {
     margin: 0;
     background-color: white;
     padding: 10px 0;
+    border-bottom: 1px solid rgb(217, 217, 217);
 }
 .menu .nav_item{
     display: block;
@@ -39,8 +43,15 @@ footer {
     padding: 5px 0;
     background-color: white;
 }
+footer a {
+    color: rgb(197, 210, 216);
+}
+footer a.active{
+    color: rgb(80, 186, 234);
+}
 footer .glyphicon {
     font-size: 24px;
+
 }
 /**********************
  * content
@@ -155,6 +166,7 @@ footer .glyphicon {
     margin: 0;
     padding: 0;
     width: 100%;
+    border-top: 1px solid rgb(217, 217, 217);
  
 }
 .tabs li {
@@ -166,7 +178,7 @@ footer .glyphicon {
     position: relative;
 }
 .tabs a {
-    background-color: #eff0f2;
+    background-color: white;
     border-bottom: 1px solid #fff;
     color: #888;
     font-weight: 500;
@@ -177,7 +189,7 @@ footer .glyphicon {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    border-bottom: 2px solid #CCC;
+    border-bottom: 1px solid #CCC;
 }
 .tabs_item {
     display: none;
@@ -197,7 +209,7 @@ footer .glyphicon {
 }
 .tabs_item .row {
     padding: 3% 0;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid rgb(240, 240, 240);
 }
 .current a {
     color: #337AB7;
