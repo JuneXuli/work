@@ -12,10 +12,156 @@
     <link href="./index.css" rel="stylesheet"/>
 </head>
 <body>
-	
+    <!-- <div class="container-fluid"> -->
+        <header>
+            <div id="slideBox" class="slideBox">
+                <div class="bd">
+                    <ul>
+                        <li>
+                            <a class="pic" href="#"><img src="../img/02.jpg" /></a>
+                        </li>
+                        <li>
+                            <a class="pic" href="#"><img src="../img/03.jpg"/></a>
+                        </li>
+                        <li>
+                            <a class="pic" href="#"><img src="../img/04.jpg"/></a>
+                        </li>
+                        <li>
+                            <a class="pic" href="#"><img src="../img/05.jpg"/></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hd">
+                  <ul></ul>
+                </div>
+            </div>
+        </header>
+        <section class="menu">
+            <div class="row">
+                <div class="nav_item">康复治疗师</div>
+                <div class="nav_item">康复医生</div>
+                <div class="nav_item">康复专科</div>
+                <div class="nav_item">康复机构</div>
+                <div class="nav_item">就近康复</div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="tab">
+
+                <ul class="tabs">
+                    <li class="text-center"><a href="#">医生推荐</a></li>
+                    <li class="text-center"><a href="#">服务推荐</a></li>
+                    <li class="text-center"><a href="#">服务推荐</a></li>
+                    <li class="text-center"><a href="#">服务推荐</a></li>
+                </ul> <!-- / tabs -->
+
+                <div class="tab_content">
+
+                    <div class="tabs_item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img class="img-responsive img-circle" src="../img/header.png" alt="">
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="personal_info">
+                                        <div>
+                                            <span class="user_name">吴建华</span>&nbsp;骨科&nbsp;主治医生&nbsp;23岁</div>
+                                        <div>北京协和医院</div>
+                                        <div class="ellipsis">吴建华骨科医生23岁吴建华骨科医生23岁吴建华骨科医生23岁吴建华骨科医生23岁</div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img class="img-responsive img-circle" src="../img/header.png" alt="">
+                                </div>
+                                <div class="col-xs-8">
+                                    <div>吴建华 骨科医生 23岁</div>
+                                    <div>吴建华 骨科医生 23岁</div>
+                                    <div>吴建华 骨科医生 23岁</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img class="img-responsive img-circle" src="../img/header.png" alt="">
+                                </div>
+                                <div class="col-xs-8">
+                                    <div>吴建华 骨科医生 23岁</div>
+                                    <div>吴建华 骨科医生 23岁</div>
+                                    <div>吴建华 骨科医生 23岁</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- / tabs_item -->
+
+                    <div class="tabs_item">
+                        
+                    </div> <!-- / tabs_item -->
+
+                    <div class="tabs_item">
+                        
+                    </div> <!-- / tabs_item -->
+                    
+                    <div class="tabs_item">
+                        
+                    </div> <!-- / tabs_item -->
+                </div> <!-- / tab_content -->
+            </div> <!-- / tab -->
+        </section>
+        <footer class="navbar-fixed-bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-4 text-center">
+                        <span class="glyphicon glyphicon-home"></span>
+                        <div>首页</div>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <span class="glyphicon glyphicon-tree-deciduous"></span>
+                        <div>康复治疗</div>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <div>个人中心</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- </div> -->
+
 </body>
-	<script src="../lib/js/bootstrap.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../lib/js/jquery.min.js" type="text/javascript" ></script>
+	<script src="../lib/js/bootstrap.js" type="text/javascript" ></script>
+    <script src="../lib/js/TouchSlide.1.1.js"></script>
 	<script>
-		
+		$(document).ready(function() { 
+            TouchSlide({ 
+                slideCell:"#slideBox",
+                titCell:".hd ul", 
+                mainCell:".bd ul", 
+                effect:"leftLoop",
+                delayTime:1000, 
+                autoPage:true,
+                autoPlay:true 
+            });
+            (function ($) { 
+                $('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
+                
+                $('.tab ul.tabs li a').click(function (g) { 
+                    var tab = $(this).closest('.tab'), 
+                        index = $(this).closest('li').index();
+                    
+                    tab.find('ul.tabs > li').removeClass('current');
+                    $(this).closest('li').addClass('current');
+                    
+                    tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + index + ')').fadeOut();
+                    tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').fadeIn();
+                    
+                    g.preventDefault();
+                } );
+            })(jQuery);
+
+        });
 	</script>
 </html>
