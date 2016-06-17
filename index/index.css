@@ -29,6 +29,7 @@ ol, ul, li{
     width: 20%;
     float: left;
     text-align: center;
+    padding: 0 5px; 
 }
 /**********************
  * footer
@@ -36,6 +37,7 @@ ol, ul, li{
 footer {
     color: #ccc;
     padding: 5px 0;
+    background-color: white;
 }
 footer .glyphicon {
     font-size: 24px;
