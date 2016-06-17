@@ -68,6 +68,9 @@ footer .glyphicon {
     font-size: 18px;
     font-weight: bolder;
 }
+.content .personal_info {
+    margin-top:3%;
+}
 .content .personal_info div{
     padding: 0 0 5px 0;
 }
@@ -82,12 +85,17 @@ footer .glyphicon {
 }
 
 .slideBox .hd {
+    width: 100%;
+    text-align: right;
     position: absolute;
     height: 28px;
     line-height: 28px;
     bottom: 0;
     right: 0;
     z-index: 1;
+
+    background: url('../img/banner_mask.png');
+    background-size: 100% 100%;
 }
 
 .slideBox .hd li {
@@ -102,7 +110,15 @@ footer .glyphicon {
     overflow: hidden;
     margin: 0 6px;
 }
-
+.slideBox .pic span {
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    width: 210px;
+    bottom: 0;
+    left: 10px;
+    color: white;
+}
 .slideBox .hd li.on {
     background: #fff;
 }
