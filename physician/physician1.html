@@ -12,6 +12,12 @@
     <link href="./physician1.css" rel="stylesheet"/>
 </head>
 <body>
+	<div class="container-fluid text-center head-btn-padding">
+		<div class="btn-group">
+			<button type="button" class="btn btn-info">康复治疗师</button>
+			<button type="button" class="btn btn-default">康复医生</button>
+		</div>
+	</div>
 	<header>
 		<input type="text" class="form-control text-center" id="search">
 		<div class="search_txt">
@@ -20,100 +26,107 @@
 		</div>
 	</header>
 	<section class="nav_condition">
-		<div class="btn-group">
-		  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		    Action <span class="caret"></span>
-		  </button>
-		  <ul class="dropdown-menu">
-		    <li><a href="#">Action</a></li>
-		    <li><a href="#">Another action</a></li>
-		    <li><a href="#">Something else here</a></li>
-		    <li role="separator" class="divider"></li>
-		    <li><a href="#">Separated link</a></li>
-		  </ul>
-		</div>	
-		<div class="btn-group">
-		  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		    Action <span class="caret"></span>
-		  </button>
-		  <ul class="dropdown-menu">
-		    <li><a href="#">Action</a></li>
-		    <li><a href="#">Another action</a></li>
-		    <li><a href="#">Something else here</a></li>
-		    <li role="separator" class="divider"></li>
-		    <li><a href="#">Separated link</a></li>
-		  </ul>
-		</div>	
-		<div class="btn-group">
-		  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		    Action <span class="caret"></span>
-		  </button>
-		  <ul class="dropdown-menu">
-		    <li><a href="#">Action</a></li>
-		    <li><a href="#">Another action</a></li>
-		    <li><a href="#">Something else here</a></li>
-		    <li role="separator" class="divider"></li>
-		    <li><a href="#">Separated link</a></li>
-		  </ul>
-		</div>	
-	</section>
-	<!-- <section class="nav_condition">
 		<div id="condition" class="btn-group btn-group-justified" role="group" aria-label="...">
 			<div class="btn-group" role="group" aria-label="...">
-				<button type="button" class="btn btn-default btn_condition" data-option="btn_condition1">治疗类型
-					<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-				</button>
+				<div class="dropdown" id="myDropdown1">
+				  <button id="btn-condition1" type="button" data-toggle="dropdown" class="btn btn-default btn-select"
+				  	aria-haspopup="true" aria-expanded="false">
+				           治疗类型
+				    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="btn-condition1">
+				  	<li><a href="#">
+				  		<span>语言</span>
+				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+				  	</li>
+				  	<li><a href="#">
+				  		<span class="btn-select">物理</span>
+				  		<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
+				  	</li>
+				  	<li><a href="#">
+				  		<span>作业</span>
+				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+				  	</li>
+				  </ul>
+				</div>
 			</div>
 		    <div class="btn-group" role="group" aria-label="...">
-		    	<button type="button" class="btn btn-default btn_condition" data-option="btn_condition2">康复科
-		    		<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-		    	</button>
+		    	<div class="dropdown" id="myDropdown2">
+				  <button id="btn-condition2" type="button" data-toggle="dropdown" class="btn btn-default"
+				  	aria-haspopup="true" aria-expanded="false">
+				           康复科
+				    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="btn-condition2">
+				  	<li>
+				  		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  			<div class="btn-group"><button type="button" class="btn btn-default">外科</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default btn-select">内科</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">耳鼻喉科</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">皮肤科</button></div>
+				  		</div>
+				  	</li>
+				  	<li>
+				  		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  			<div class="btn-group"><button type="button" class="btn btn-default">外科</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">内科</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">耳鼻喉科</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">皮肤科</button></div>
+				  		</div>
+				  	</li>
+				  	<li>
+				  		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  			<div class="btn-group"><button type="button" class="btn btn-default">外科</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">内科</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">耳鼻喉科</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">皮肤科</button></div>
+				  		</div>
+				  	</li>
+				  </ul>
+				</div>
 		    </div>
 		    <div class="btn-group" role="group" aria-label="...">
-		    	<button type="button" class="btn btn-default btn_condition" data-option="btn_condition3">筛选
-		    		<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-		    	</button>
+		    	<div class="dropdown" id="myDropdown3">
+				  <button id="btn-condition3" type="button" data-toggle="dropdown" class="btn btn-default"
+				  	aria-haspopup="true" aria-expanded="false">
+				           筛选
+				    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="btn-condition3">
+				  	<li>
+				  		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选1</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default btn-select">筛选2</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选3</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选4</button></div>
+				  		</div>
+				  	</li>
+				  	<li>
+				  		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选1</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选2</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选3</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选4</button></div>
+				  		</div>
+				  	</li>
+				  	<li>
+				  		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选1</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选2</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选3</button></div>
+				  			<div class="btn-group"><button type="button" class="btn btn-default">筛选4</button></div>
+				  		</div>
+				  	</li>
+				  </ul>
+				</div>
 		    </div>
 		</div>
-		<div id="btn_condition1" class="option">
-			<div class="option_item">语言
-				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-			</div>
-			<div class="option_item">物理
-				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-			</div>
-			<div class="option_item">作业
-				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-			</div>
-		</div>
-		<div id="btn_condition2" class="option">
-			<div class="option_item">康复科1
-				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-			</div>
-			<div class="option_item">康复科2
-				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-			</div>
-			<div class="option_item">康复科3
-					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-				</div>
-		</div>
-		<div id="btn_condition3" class="option">
-			<div class="option_item">筛选
-				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-			</div>
-			<div class="option_item">筛选
-				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-			</div>
-			<div class="option_item">筛选
-					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-				</div>
-		</div>
-	</section> -->
+	</section>
 	<section class="content">
 		<div class="container-fluid">
 			<div class="row">
                 <div class="col-xs-4 col-sm-2 text-center my_relative">
-                    <img class="img-responsive img-circle center-block" src="../img/ima_ys1.png" alt="">
+                    <img class="img-responsive img-circle" src="../img/ima_ys1.png" alt="">
                     <span class="isline isline_on"></span>
                 </div>
                 <div class="col-xs-8 col-sm-10">
@@ -127,7 +140,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-4 col-sm-2 text-center my_relative">
-                    <img class="img-responsive img-circle center-block" src="../img/ima_ys2.png" alt="">
+                    <img class="img-responsive img-circle" src="../img/ima_ys2.png" alt="">
                     <span class="isline isline_on"></span>
                 </div>
                 <div class="col-xs-8 col-sm-10">
@@ -141,8 +154,8 @@
             </div>
             <div class="row">
                 <div class="col-xs-4 col-sm-2 text-center my_relative">
-                    <img class="img-responsive img-circle center-block" src="../img/ima_ys3.png" alt="">
-                    <span class="isline isline_on"></span>
+                    <img class="img-responsive img-circle" src="../img/ima_ys3.png" alt="">
+                    <span class="isline isline_off"></span>
                 </div>
                 <div class="col-xs-8 col-sm-10">
                     <div class="personal_info">
@@ -155,7 +168,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-4 col-sm-2 text-center my_relative">
-                    <img class="img-responsive img-circle center-block" src="../img/header.png" alt="">
+                    <img class="img-responsive img-circle" src="../img/header.png" alt="">
                     <span class="isline isline_on"></span>
                 </div>
                 <div class="col-xs-8 col-sm-10">
@@ -185,36 +198,9 @@
 			//查询
 		}
 	});
-	//查询下拉框
-	$(".btn_condition").click(function(){
-		var option=$(this).data("option");
-		$(".option").not("#"+option).hide();
-		$("#"+option).stop().slideToggle("normal",function(){
-			if($("#"+option).css("display")=="block"){
-				 $(".cover").show();
-			}else{
-				$(".cover").hide();
-			}	
-		});
-	});
-	//查询项点击时
-	$(".option_item").click(function(){
-		var parent=$(this).parent();
-		parent.find(".glyphicon").hide();
-		parent.find(".option_item").css("color","#000")
-		$(this).find(".glyphicon").show();
-		$(this).css("color","#4fb9e9");
-		var id=parent.attr("id");
-		$(".btn_condition").each(function(){
-			if($(this).data("option")==id){
-				$(this).css("color","#4fb9e9");
-			}
-		})
-		setTimeout(function(){
-			$(".option").slideUp();
-		    $(".cover").hide(100);
-		    //查询。。。。
-		},200)
+	//下拉框展开时
+	$("#myDropdown1").on('show.bs.dropdown',function(){
+		$("#btn-condition1").css("color","#4fbbea");
 	});
 </script>
 </html>

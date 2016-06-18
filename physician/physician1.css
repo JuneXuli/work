@@ -13,6 +13,9 @@ ol, ul, li{
 /**********************
  * header
  **********************/ 
+.head-btn-padding {
+	padding: 10px 0;
+}
 header{
 	height:54px;
 	padding:10px 2%;
@@ -27,9 +30,6 @@ header .search_txt{
 	top:50%;
 	transform: translate(-50%,-50%);
 }
-header .glyphicon{
-	
-}
 
 /**********************
  * nav_condition
@@ -43,55 +43,61 @@ header .glyphicon{
 	border-top:1px solid #dddddd;
 	border-bottom:1px solid #dddddd;
 }
+/*改变bootstrap默认设置使下拉框宽度100%*/
+#condition .btn-group,.nav_condition .dropdown{
+	position: static;
+}
+#condition .dropdown-menu{
+	left:0;
+	right:0;
+	top:44px;
+}
 #condition button{
 	border:none;
 }
-.option{
+#condition  .dropdown-menu > li{
+	position: relative;
+}
+#condition .dropdown-menu .glyphicon{
 	position: absolute;
-	top:56px;
-	left:0;
-	right:0;
-	z-index:999;
-	background:#fff;
-	display: none;
- }
- .option_item{
- 	height:42px;
- 	line-height:42px;
- 	border-bottom:1px solid #dddddd;
- 	padding-left:16px;
- 	position: relative;
- }
- .option_item span{color:#4fbbea;position: absolute;right:16px;top:12px;
- }
- .option .glyphicon{display: none;
- }
+	right:15px;
+}
+.btn-select{
+	color:#4fbbea;
+}
  .cover{
  	position: fixed;top:110px;right:0;
     bottom:0;left:0;z-index:1;background:#737373;
     opacity:0.5;display: none;
  }
+ #myDropdown2 li{
+ 	border-bottom:1px solid #e4e4e4;
+ }
+  #myDropdown2 li:last-child{
+ 	border-bottom:0;
+ }
 /**********************
  * content
  **********************/ 
-@media screen and (min-width: 768px) {
-    .img-responsive {
-        display: initial;
-    }
-}
 .my_relative{
 	display: relative;
 }
 .content .row{
 	border-bottom:1px solid #f0f0f0;
-	padding:10px 0;
+	padding:20px 0 10px 0;
+}
+.content img {
+    width: 200px;
+    display: initial;
+    margin-right: 30px;
 }
 .content .user_name{
 	font-size: 18px;
     font-weight: bolder;
 }
 .content .personal_info {
-    margin-top:3%;
+    margin-top:2%;
+    color: #888;
 }
 .content .personal_info div{
     padding-bottom:5px;
@@ -107,7 +113,7 @@ header .glyphicon{
 	height:12%;
 	border:2px solid #fff;
 	border-radius: 50%;
-	right:20%;
+	right:18%;
 	bottom:8%;
 }
 .content .isline_on{
@@ -116,3 +122,35 @@ header .glyphicon{
 .content .isline_off{
 	background:#c2c2c2;
 }
+@media screen and (min-width: 374px) {
+    .content .isline {
+    	width:16px;
+        height:16px;
+        right:12%;
+    }
+}
+@media screen and (min-width: 413px) {
+    .content .isline {
+    	width:18px;
+        height:18px;
+        right:15%;
+    }
+}
+@media screen and (min-width: 767px) {
+    .img-responsive {
+        display: initial;
+    }
+    .content .isline {
+    	width:22px;
+        height:22px;
+        right:10%;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .content .isline {
+        width:24px;
+        height:24px;
+        right:15%;
+    }
+}
+
