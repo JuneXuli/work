@@ -1,0 +1,142 @@
+/**********************
+ * global
+ **********************/ 
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ol, ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/**********************
+ * header
+ **********************/ 
+header{
+	height:22%;
+}
+header img{
+	width:100%;
+	height:100%;
+}
+
+/**********************
+ * hos-info
+ **********************/ 
+.hos-info{
+	padding:20px 5%;
+	border-bottom:1px solid #e3e3e3;
+}
+.hos-info .hos-name{
+	color:#333333;
+	font-size: 18px;
+	line-height: 36px;
+	font-family: "微软雅黑";
+	padding-right:10px;
+}
+.hos-info .label-info{
+	position: relative;
+	top:-3px;
+}
+.hos-info .other{
+	line-height:24px;
+}
+.hos-info .txt-head{
+	color:#999999;
+}
+.hos-info .txt-type{
+	color:#0086f1;
+}
+/**********************
+ * hos-info
+ **********************/ 
+.hos-des{
+	padding:14px 5%;
+	position: relative;
+}
+.hos-des img{
+	position: absolute;
+	width:15px;
+	height:22px; 
+	top:18px;
+}
+.hos-des div{
+	padding-left:32px;
+	color:#ffac4f;
+}
+
+.nav_condition .navbar{
+	margin:0;
+	padding:0;
+	border-left:0;
+	border-right: 0;
+}
+/**********************
+ * doc-list
+ **********************/ 
+.doc-list .row{
+	border-bottom:1px solid #f0f0f0;
+	padding:0 0 10px 0;
+}
+.doc-list img {
+    width: 200px;
+    display: initial;
+    margin-right: 30px;
+}
+.doc-list .user_name{
+	font-size: 18px;
+    font-weight: bolder;
+}
+.doc-list .personal_info {
+    margin-top:2%;
+    color: #888;
+}
+.doc-list .personal_info div{
+    padding-bottom:5px;
+}
+.doc-list .isline{
+ 	position: absolute;
+	width:12%;
+	height:14%;
+	border:2px solid #fff;
+	border-radius: 50%;
+ 	top:72%;
+ 	left:74%;
+ }
+.doc-list .isline_on{
+	background:#50ea71;
+}
+.doc-list .isline_off{
+	background:#c2c2c2;
+}
+ .doc-list .ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@media screen and (min-width: 374px) {
+    
+}
+@media screen and (min-width: 413px) {
+    
+}
+
+@media screen and (min-width: 767px) {
+    .img-responsive {
+        display: initial;
+    }
+    header{
+    	height:30%;
+    }
+    
+}
+@media screen and (min-width: 1023px) {
+    .doc-list .isline{
+    	left:78%;
+    }
+     header{
+    	height:60%;
+    }
+}
+
