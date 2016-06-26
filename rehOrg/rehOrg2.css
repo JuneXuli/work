@@ -98,7 +98,7 @@ header img{
 .doc-list .isline{
  	position: absolute;
 	width:12%;
-	height:14%;
+	height:12%;
 	border:2px solid #fff;
 	border-radius: 50%;
  	top:72%;
@@ -114,6 +114,13 @@ header img{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+.header-img{
+	position: relative;
+	display: inline-block;
+}
+.doc-list img{
+	margin: 0;
 }
 @media screen and (min-width: 374px) {
     

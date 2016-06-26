@@ -126,19 +126,12 @@ header img{
 .doc-list .isline{
  	position: absolute;
 	width:12%;
-	height:12%;
+	height:14%;
 	border:2px solid #fff;
 	border-radius: 50%;
  	top:72%;
  	left:74%;
  }
- .header-img {
- 	position: relative;
- 	display: inline-block;
- }
-  .header-img img{
-  	margin: 0;
-  }
 .doc-list .isline_on{
 	background:#50ea71;
 }
@@ -150,7 +143,75 @@ header img{
     overflow: hidden;
     white-space: nowrap;
 }
-
+.tab {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #888;
+    -webkit-font-smoothing: antialiased;
+}
+.tabs {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid rgb(217, 217, 217);
+ 
+}
+.tabs li {
+    float: left;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    width: 25%;
+    position: relative;
+}
+.tabs a {
+    background-color: white;
+    border-bottom: 1px solid #fff;
+    color: #888;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 1px solid #CCC;
+}
+.tabs_item {
+    display: none;
+}
+.tabs_item:first-child {
+    display: block;
+}
+.tabs_item h4 {
+    font-weight: bold;
+    color: #87d3b7;
+    font-size: 20px;
+}
+.tabs_item img {
+    width: 200px;
+    display: initial;
+    margin-right: 30px;
+}
+.tabs_item .row {
+    padding: 3% 0;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.current a {
+    color: #337AB7;
+    border-bottom: 2px solid #337AB7;
+}
 @media screen and (min-width: 374px) {
     .hos-info{
     	font-size: 14px;

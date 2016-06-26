@@ -174,13 +174,15 @@ header .info-top2{
     }
 }
 @media screen and (min-width: 767px) {
-	
+	header .info-top{
+		padding-left:240px;
+	}
 }
 @media screen and (min-width: 1023px) {
     header .info-top{
-		padding-left:20%;
+		padding-left:250px;
 	}
     .des-info{
-		padding-top:9%;
+		padding-top:120px;
 	}
 }
