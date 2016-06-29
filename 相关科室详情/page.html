@@ -42,7 +42,47 @@
 
                     <div class="tabs_item">
                         <div class="container-fluid">
+                            <!-- <table>
+                                    <tr>
+                                        <td>
+                                            <img class="img-circle" src="../img/header.png" alt="" style="width:200%">
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <span class="user_name">吴建华</span>&nbsp;主治医生&nbsp;<span class="label label-online">在线</span>
+                                            </div>
+                                            <div>北京协和医院&nbsp;<span class="label label-info">在线</span></div>
+                                            <div class="ellipsis">吴建华骨科医生23岁吴建华骨科医生23岁吴建华骨科医生23岁吴建华骨科医生23岁</div>
+                                        </td>
+                                    </tr>
+                                </table> -->
                             <div class="row">
+                                <!-- <div>
+                                    <div>
+                                        <img class="img-responsive img-circle" src="../img/header.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div>
+                                                <span class="user_name">吴建华</span>&nbsp;主治医生&nbsp;<span class="label label-online">在线</span>
+                                            </div>
+                                            <div>北京协和医院&nbsp;<span class="label label-info">在线</span></div>
+                                            <div class="ellipsis">吴建华骨科医生23岁吴建华骨科医生23岁吴建华骨科医生23岁吴建华骨科医生23岁</div>
+                                    </div>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <img class="img-circle" src="../img/header.png" alt="" style="width:200%">
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <span class="user_name">吴建华</span>&nbsp;主治医生&nbsp;<span class="label label-online">在线</span>
+                                            </div>
+                                            <div>北京协和医院&nbsp;<span class="label label-info">在线</span></div>
+                                            <div class="ellipsis">吴建华骨科医生23岁吴建华骨科医生23岁吴建华骨科医生23岁吴建华骨科医生23岁</div>
+                                        </td>
+                                    </tr>
+                                </table> -->
                                 <div class="col-xs-4 col-sm-2 text-center">
                                     <img class="img-responsive img-circle" src="../img/header.png" alt="">
                                 </div>
@@ -184,6 +224,11 @@
                     g.preventDefault();
                 } );
             })(jQuery);
+            $('.personal_info').css({
+                'height':$('.img-circle').height(),
+                'line-height': ($('.img-circle').height()/3)+'px'
+            })
+            
 
         });
 	</script>
