@@ -48,6 +48,17 @@ header .info-top2{
 	position: absolute;
 	top:110%;
 }
+.bs-callout {
+    padding-left: 10px;
+    margin: 15px 0;
+    /*border: 1px solid #eee;*/
+    border-left: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout-info {
+    border-left-color: #1b809e;
+}
 
 /**********************
  * des-info
@@ -64,7 +75,7 @@ header .info-top2{
 	height:18px;
 }
 .des-info div{
-	padding-left:25px;
+	/*padding-left:25px;*/
 	color:#666666;
 }
 /**********************
