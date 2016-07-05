@@ -3,7 +3,7 @@
 <head>
 	<title>康复治疗师</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-touch-fullscreen" content="YES">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -12,7 +12,9 @@
     <link href="./physician2.css" rel="stylesheet"/>
 </head>
 <body>
-	<div class="container-fluid text-center head-btn-padding">
+	<div id="wrapper">
+		<div class="iscroll">
+			<div class="container-fluid text-center head-btn-padding">
 		<div class="btn-group">
 			<button type="button" class="btn btn-info">康复治疗师</button>
 			<button type="button" class="btn btn-default">康复医生</button>
@@ -187,9 +189,14 @@
 		</div>
 	</section>
 	<div class="cover"></div>
+		</div>
+	
+	</div>
+	
 </body>
 <script src="../lib/js/jquery.min.js" type="text/javascript" ></script>
 <script src="../lib/js/bootstrap.js" type="text/javascript" ></script>
+<script src="../lib/js/iscroll-probe.js" type="text/javascript" ></script>
 <script type="text/javascript">
 	//搜索按钮聚焦时隐藏提示消息
 	$("#search").focus(function(){
@@ -206,5 +213,18 @@
 	$("#myDropdown1").on('show.bs.dropdown',function(){
 		$("#btn-condition1").css("color","#4fbbea");
 	});
+	
+	var myscroll;
+    function loaded(){
+       setTimeout(function(){
+            myScroll = new IScroll('#wrapper');
+			myScroll.on('scrollStart', function () {
+			    console.log(1);
+			});
+         },100 );
+    }
+    window.addEventListener("load",loaded,false);
+	// window.addEventListener("DOMContentLoaded",loaded,false);
+
 </script>
 </html>
