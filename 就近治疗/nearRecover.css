@@ -100,7 +100,7 @@ header .search_txt{
 	color:#c3c3c3;
 }
 .content img {
-    width: 200px;
+    /*width: 200px;*/
     display: initial;
     margin-right: 30px;
     margin-top:6px;
@@ -116,6 +116,10 @@ header .search_txt{
 	height:32px;
 	overflow: hidden;
 	position: relative;
+}
+.center-block {
+	width:90px;
+	height:70px;
 }
 @media screen and (min-width: 374px) {
     .content img {

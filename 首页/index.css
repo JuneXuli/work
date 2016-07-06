@@ -248,7 +248,6 @@ footer .glyphicon {
     font-size: 20px;
 }
 .tabs_item img {
-    width: 200px;
     display: initial;
     margin-right: 30px;
 }
@@ -265,8 +264,28 @@ footer .glyphicon {
     font-weight: bolder;
 }
 .loader-more {
-    padding: 5px 0;
+    padding: 8px 0;
     text-align: center;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.img-menu-local {
+    width:48px;
+    height:48px;
+}
+.img-circle-local {
+    width: 80px;
+    height: 80px;
+}
+.img-circle-text {
+    padding-top: 10px;
+}
+.img-square-local {
+    width: 80px;
+    height: 80px;
+}
+.menu .menu-icon {
+    padding-left: 0;
+    padding-right: 0;
 }
 /*@media screen and (min-width: 374px) {
     .content .personal_info {

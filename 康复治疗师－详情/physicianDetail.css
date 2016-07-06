@@ -165,7 +165,6 @@ header .info-top2{
     font-size: 20px;
 }
 .tabs_item img {
-    width: 200px;
     display: initial;
     margin-right: 30px;
 }
@@ -177,7 +176,10 @@ header .info-top2{
     color: #50baea;
     border-bottom: 2px solid #50baea;
 }
-
+.img-rectangle {
+    width:90px;
+    height:70px;
+}
 @media screen and (min-width: 374px) {
     header .info-top1{
     	font-size: 18px;

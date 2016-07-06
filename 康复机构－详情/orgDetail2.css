@@ -108,21 +108,21 @@ header img{
 	padding:10px 0;
 }
 .doc-list img {
-    width: 200px;
+    /*width: 200px;*/
     display: initial;
     margin-right: 30px;
 }
-.doc-list .user_name{
+/*.doc-list .user_name{
 	font-size: 18px;
     font-weight: bolder;
-}
+}*/
 .doc-list .personal_info {
-    margin-top:2%;
+    /*margin-top:2%;*/
     color: #888;
 }
-.doc-list .personal_info div{
+/*.doc-list .personal_info div{
     padding-bottom:5px;
-}
+}*/
 .doc-list .isline{
  	position: absolute;
 	width:12%;
@@ -200,7 +200,7 @@ header img{
     font-size: 20px;
 }
 .tabs_item img {
-    width: 200px;
+    /*width: 200px;*/
     display: initial;
     margin-right: 30px;
 }
@@ -211,6 +211,20 @@ header img{
 .current a {
     color: #337AB7;
     border-bottom: 2px solid #337AB7;
+}
+.img-circle-local {
+    width: 80px;
+    height: 80px;
+}
+.img-circle-text {
+    padding-top: 10px;
+}
+.personal_info div{
+    height:20px;
+}
+.center-block {
+    width: 90px;
+    height: 70px;
 }
 @media screen and (min-width: 374px) {
     .hos-info{

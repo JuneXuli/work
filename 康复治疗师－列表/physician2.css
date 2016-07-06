@@ -87,28 +87,34 @@ header .search_txt{
 	padding:10px 0 10px 0;
 }
 .content img {
-    width: 200px;
     display: initial;
     margin-right: 30px;
 }
-.content .user_name{
+/*.content .user_name{
 	font-size: 18px;
     font-weight: bolder;
-}
+}*/
 .content .personal_info {
-    margin-top:2%;
+    /*margin-top:2%;*/
     color: #888;
 }
 .content .personal_info  .label{
 	font-weight: normal;
 }
-.content .personal_info div{
+/*.content .personal_info div{
     padding-bottom:5px;
-}
+}*/
 .content .ellipsis {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+.img-circle-local {
+    width: 80px;
+    height: 80px;
+}
+.img-circle-text {
+    padding-top: 10px;
 }
 @media screen and (min-width: 374px) {
     
