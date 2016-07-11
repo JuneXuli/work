@@ -1,0 +1,40 @@
+/**********************
+ * global
+ **********************/ 
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ol, ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/**********************
+ * content
+ **********************/ 
+
+.container-fluid .row{
+	/*height:60px;*/
+    padding: 16px 0;
+    border-bottom: 1px solid #ececec;
+}
+.container-fluid .row.head-pro{
+	/*height:120px;*/
+	/*line-height: 120px;*/
+
+}
+.container-fluid .row.head-pro .modify-img {
+    height: 80px;
+    line-height: 80px;
+}
+.container-fluid .img-square-local {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /*margin-top:20px;*/
+}
+.container-fluid .text-right{
+	color:#666666;
+}
