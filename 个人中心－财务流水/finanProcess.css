@@ -40,3 +40,10 @@ ol, ul, li{
 	color:#333333;
 	font-size:20px;
 }
+.content .content-title{
+	font-weight: bold;
+	padding-bottom:6px;
+}
+.content .content-time{
+	color:#4ebdeb;
+}
