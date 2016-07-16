@@ -12,83 +12,93 @@
     <link href="./rehOrg.css" rel="stylesheet"/>
 </head>
 <body>	
-	<header>
+	<!-- <header>
 		<input type="text" class="form-control text-center" id="search">
 		<div class="search_txt">
 			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 			<span>搜索</span>
 		</div>
-	</header>
+	</header> -->
 	<section class="nav_condition">
 		<div id="condition" class="btn-group btn-group-justified" role="group" aria-label="...">
-			<div class="btn-group" role="group" aria-label="...">
-				<div class="dropdown" id="myDropdown1">
-				  <button id="btn-condition1" type="button" data-toggle="dropdown" class="btn btn-default btn-select"
-				  	aria-haspopup="true" aria-expanded="false">
-				           类别
-				    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-				  </button>
-				  <ul class="dropdown-menu" aria-labelledby="btn-condition1">
-				  	<li><a href="#">
-				  		<span>类别1</span>
-				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
-				  	</li>
-				  	<li><a href="#">
-				  		<span class="btn-select">类别2</span>
-				  		<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
-				  	</li>
-				  	<li><a href="#">
-				  		<span>类别3</span>
-				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
-				  	</li>
-				  </ul>
+			<div class="col-xs-5 col-sm-5 text-center condition-splite-line ">
+				<div class="btn-group" role="group" aria-label="...">
+					<div class="dropdown" id="myDropdown1">
+					  <button id="btn-condition1" type="button" data-toggle="dropdown" class="btn btn-default btn-select"
+					  	aria-haspopup="true" aria-expanded="false">
+					           专科医院
+					    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="btn-condition1">
+					  	<li><a href="#">
+					  		<span>综合医院</span>
+					  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+					  	</li>
+					  	<li><a href="#">
+					  		<span class="btn-select">康复诊所</span>
+					  		<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
+					  	</li>
+					  	<li><a href="#">
+					  		<span>康复机构</span>
+					  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+					  	</li>
+					  </ul>
+					</div>
 				</div>
 			</div>
-			<div class="btn-group" role="group" aria-label="...">
-				<div class="dropdown" id="myDropdown1">
-				  <button id="btn-condition1" type="button" data-toggle="dropdown" class="btn btn-default"
-				  	aria-haspopup="true" aria-expanded="false">
-				           级别
-				    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-				  </button>
-				  <ul class="dropdown-menu" aria-labelledby="btn-condition1">
-				  	<li><a href="#">
-				  		<span>级别1</span>
-				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
-				  	</li>
-				  	<li><a href="#">
-				  		<span class="btn-select">级别2</span>
-				  		<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
-				  	</li>
-				  	<li><a href="#">
-				  		<span>级别3</span>
-				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
-				  	</li>
-				  </ul>
+			<div class="col-xs-5 col-sm-5 text-center condition-splite-line ">
+				<div class="btn-group" role="group" aria-label="...">
+					<div class="dropdown" id="myDropdown1">
+					  <button id="btn-condition1" type="button" data-toggle="dropdown" class="btn btn-default"
+					  	aria-haspopup="true" aria-expanded="false">
+					           智能排序
+					    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="btn-condition1">
+					  	<li><a href="#">
+					  		<span>级别1</span>
+					  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+					  	</li>
+					  	<li><a href="#">
+					  		<span class="btn-select">级别2</span>
+					  		<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
+					  	</li>
+					  	<li><a href="#">
+					  		<span>级别3</span>
+					  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+					  	</li>
+					  </ul>
+					</div>
 				</div>
 			</div>
-		    <div class="btn-group" role="group" aria-label="...">
-		    	<div class="dropdown" id="myDropdown2">
-				  <button id="btn-condition2" type="button" data-toggle="dropdown" class="btn btn-default"
-				  	aria-haspopup="true" aria-expanded="false">
-				          距离
-				    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-				  </button>
-				  <ul class="dropdown-menu" aria-labelledby="btn-condition2">
-				  	<li><a href="#">
-				  		<span>距离1</span>
-				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
-				  	</li>
-				  	<li><a href="#">
-				  		<span class="btn-select">距离2</span>
-				  		<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
-				  	</li>
-				  	<li><a href="#">
-				  		<span>距离3</span>
-				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
-				  	</li>
-				  </ul>
-				</div>
+			<div class="col-xs-2 col-sm-2 text-center">
+			    <div class="btn-group" role="group" aria-label="...">
+			    	<!-- <div class="dropdown" id="myDropdown2">
+					  <button id="btn-condition2" type="button" data-toggle="dropdown" class="btn btn-default"
+					  	aria-haspopup="true" aria-expanded="false">
+					          距离
+					    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="btn-condition2">
+					  	<li><a href="#">
+					  		<span>距离1</span>
+					  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+					  	</li>
+					  	<li><a href="#">
+					  		<span class="btn-select">距离2</span>
+					  		<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
+					  	</li>
+					  	<li><a href="#">
+					  		<span>距离3</span>
+					  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+					  	</li>
+					  </ul>
+					</div> -->
+					<!-- <input type="text" class="form-control text-center" id="search"> -->
+					<div class="search_txt">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</div>
+			    </div>
 		    </div>
 		</div>
 	</section>

@@ -18,20 +18,21 @@
 			<button type="button" class="btn btn-default">康复医生</button>
 		</div>
 	</div>
-	<header>
+	<!-- <header>
 		<input type="text" class="form-control text-center" id="search">
 		<div class="search_txt">
 			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 			<span>搜索</span>
 		</div>
-	</header>
+	</header> -->
 	<section class="nav_condition">
 		<div id="condition" class="btn-group btn-group-justified" role="group" aria-label="...">
+			<div class="col-xs-3 col-sm-3 text-center condition-splite-line ">
 			<div class="btn-group" role="group" aria-label="...">
 				<div class="dropdown" id="myDropdown1">
 				  <button id="btn-condition1" type="button" data-toggle="dropdown" class="btn btn-default btn-select"
 				  	aria-haspopup="true" aria-expanded="false">
-				           治疗类型
+				           推荐
 				    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
 				  </button>
 				  <ul class="dropdown-menu" aria-labelledby="btn-condition1">
@@ -50,6 +51,8 @@
 				  </ul>
 				</div>
 			</div>
+			</div>
+			<div class="col-xs-4 col-sm-4 text-center condition-splite-line ">
 		    <div class="btn-group" role="group" aria-label="...">
 		    	<div class="dropdown" id="myDropdown2">
 				  <button id="btn-condition2" type="button" data-toggle="dropdown" class="btn btn-default"
@@ -85,8 +88,35 @@
 				  </ul>
 				</div>
 		    </div>
+		    </div>
+		    <div class="col-xs-3 col-sm-3 text-center condition-splite-line ">
+			<div class="btn-group" role="group" aria-label="...">
+				<div class="dropdown" id="myDropdown1">
+				  <button id="btn-condition1" type="button" data-toggle="dropdown" class="btn btn-default btn-select"
+				  	aria-haspopup="true" aria-expanded="false">
+				           推荐
+				    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="btn-condition1">
+				  	<li><a href="#">
+				  		<span>语言</span>
+				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+				  	</li>
+				  	<li><a href="#">
+				  		<span class="btn-select">物理</span>
+				  		<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
+				  	</li>
+				  	<li><a href="#">
+				  		<span>作业</span>
+				  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+				  	</li>
+				  </ul>
+				</div>
+			</div>
+			</div>
+		    <div class="col-xs-2 col-sm-2 text-center condition-splite-line ">
 		    <div class="btn-group" role="group" aria-label="...">
-		    	<div class="dropdown" id="myDropdown3">
+		    	<!-- <div class="dropdown" id="myDropdown3">
 				  <button id="btn-condition3" type="button" data-toggle="dropdown" class="btn btn-default"
 				  	aria-haspopup="true" aria-expanded="false">
 				           筛选
@@ -118,7 +148,11 @@
 				  		</div>
 				  	</li>
 				  </ul>
+				</div> -->
+				<div class="search_txt">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 				</div>
+		    </div>
 		    </div>
 		</div>
 	</section>

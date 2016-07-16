@@ -35,10 +35,20 @@ header .search_txt{
 	position: relative;
 }
 #condition{
-	height:56px;
+	line-height: 32px;
+    height: 32px;
 	box-sizing: border-box;
 	border-top:1px solid #dddddd;
 	border-bottom:1px solid #dddddd;
+}
+.condition-splite-line {
+	border-right: 1px solid #dddddd;
+}
+#condition>div{
+	position: static;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding: 0px 0px;
 }
 /*改变bootstrap默认设置使下拉框宽度100%*/
 #condition .btn-group,.nav_condition .dropdown{
