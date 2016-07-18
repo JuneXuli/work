@@ -1,0 +1,52 @@
+body{
+	background-color: #d9d9d9;
+}
+.header {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #a0a0a0;
+	position: fixed;
+}
+
+.content,
+.content-list {
+	padding-top: 59px;
+}
+
+
+
+
+.label{
+	padding: 0.5em 0.5em;
+	margin-right: 8px;
+	margin-top: 8px;
+	display: inline-block;
+}
+
+.content-list .row {
+	margin: 0;
+	background-color: white;
+	padding: 8px 8px;
+}
+.content-list .row>div{
+	padding: 0;
+}
+.content-list img {
+	width: 90px;
+	height: 70px;
+}
+.content-list .list {
+	padding-left: 8px;
+	height: 70px;
+}
+.content-list .list .title {
+	font-weight: bolder;
+	font-size: 16px;
+}
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+

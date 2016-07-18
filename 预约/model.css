@@ -1,0 +1,71 @@
+html, 
+body,
+.wrapper {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.wrapper {
+	overflow-y: scroll;
+	background-color: #d9d9d9;
+	padding: 16px 8px;
+}
+.content {
+	background-color: white;
+	padding: 0px 16px;
+}
+.content .title {
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 16px 0px;
+	border-bottom: 1px dashed #d9d9d9;
+}
+.content>div {
+	padding: 16px 0px;
+	border-bottom: 1px solid #efefef;
+	margin: 0;
+}
+.content div.section {
+	padding: 0;
+	background-color: #efefef;
+}
+.content div.section>div {
+	padding: 16px 8px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.content div.section .title {
+	font-size: 14px;
+	padding: 16px 8px;
+	background-color: #d9d9d9;
+	font-weight: bolder;
+}
+.content div.section input[type="checkbox"]{
+	width: 18px;
+    height: 18px;
+    margin: 0;
+}
+.content div.section input[type="text"]{
+	background-color: #efefef;
+	border: 0;
+	width: 80%;
+}
+.content div.section textarea{
+	background-color: #efefef;
+	border: 0;
+	width: 80%;
+}
+.section>div {
+	padding: 16px 0px;
+}
+.describe {
+	color: #d9d9d9;
+}
+.btn-red {
+	border-color: red;
+	color: red;
+	background-color: white;
+}
+.time {
+	color: #5bc0de;
+}

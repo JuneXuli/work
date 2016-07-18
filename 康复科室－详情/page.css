@@ -1,8 +1,14 @@
 html, body{
     height: 100%;
     width: 100%;
+    background-color: #d9d9d9;
 }
 
+.container-fluid .row {
+    padding: 10px 0;
+    margin-top: 5px;
+    background-color: white;
+}
 .banner {
     position: relative;
 }
@@ -57,7 +63,26 @@ html, body{
 .text p {
     color: rgb(184, 184, 184);
 }
-
+.nav_condition {
+    background-color: white;
+}
+.btn.btn-default {
+    border: 0;
+}
+#condition {
+    position: relative;
+}
+#condition .dropdown-menu {
+    left: 0;
+    right: 0;
+}
+#condition>div {
+    position: static;
+}
+.nav_condition .btn-group,
+.nav_condition .dropdown {
+    position: static;
+}
 
 
 
@@ -74,7 +99,7 @@ html, body{
 .user_name {
     font-size: 16px;
 }
-.content .ellipsis {
+.ellipsis {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -91,7 +116,7 @@ html, body{
  * tabs
  **********************/ 
 
-.tab {
+/*.tab {
     margin-bottom: 20px;
     position: relative;
     overflow: hidden;
@@ -166,7 +191,7 @@ html, body{
 }
 .img-circle-text {
     padding-top: 7px;
-}
+}*/
 /*@media screen and (min-width: 374px) {
     .content .personal_info {
         margin-top:3%;

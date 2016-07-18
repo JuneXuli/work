@@ -1,0 +1,80 @@
+html,
+body,
+.wrapper{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #d9d9d9;
+}
+.wrapper {
+	overflow-y: scroll;
+}
+
+header{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border: 1px solid #d9d9d9;
+	background-color: white;
+}
+.btn-class {
+	background-color: white;
+}
+section .btn-group {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.btn-group a.btn {
+	border: 0px;
+}
+.btn-group a.btn.split {
+	border-right: 1px solid #d9d9d9;
+}
+
+
+
+
+
+.content {
+	padding: 0px 8px;
+}
+.card img {
+	width: 100px;
+	height: 100px;
+	/*margin-top: 12px;*/
+}
+.row>div {
+	padding: 0px;
+}
+.card {
+	margin-top: 8px;
+	background-color: white;
+}
+.card .title {
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 16px 16px;
+	border: 1px dashed #efefef;
+}
+.card-content .row>div{
+	height: 80px;
+}
+.card-foot {
+	padding: 8px 16px;
+}
+.card-foot:after{
+	display:block;
+	content:"clear";
+	height:0;
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+}
+.btn-red {
+	border-color: red;
+	color: red;
+	background-color: white;
+}
+.height-center {
+	line-height: 25px;
+}
+
