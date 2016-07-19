@@ -40,6 +40,7 @@ section .btn-group {
 .card img {
 	width: 100px;
 	height: 100px;
+	margin-left:16px;
 	/*margin-top: 12px;*/
 }
 .row>div {
@@ -56,7 +57,7 @@ section .btn-group {
 	border: 1px dashed #efefef;
 }
 .card-content .row>div{
-	height: 80px;
+	height: 100px;
 }
 .card-foot {
 	padding: 8px 16px;
@@ -74,7 +75,46 @@ section .btn-group {
 	color: red;
 	background-color: white;
 }
-.height-center {
+.row {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 1px solid #efefef;
+
+}
+.row>div.height-center {
 	line-height: 25px;
+	font-size: 12px;
+	padding-left: 32px;
+	color: #d9d9d9;
+}
+.status {
+	color: #5bc0de;
+}
+#myModal {
+	background-color: rgba(90, 90, 90, 0.4);
+}
+.modal-dialog {
+	margin-top: 49.5%;
+}
+.modal-footer {
+	padding: 0;
+	text-align: left;
+}
+.modal-footer .pull-left {
+	border-right: 1px solid #e5e5e5;
+}
+.modal-footer .btn {
+	padding-top: 16px;
+	padding-bottom: 16px; 
+	width: 49.5%;
+	background-color: white;
+}
+.modal-footer .btn+.btn {
+	margin: 0px;
+}
+@media screen and (min-width: 1023px) {
+    .modal-dialog {
+		margin-top: 25%;
+	}
 }
 
