@@ -1,0 +1,70 @@
+/**********************
+ * global
+ **********************/ 
+html,body{
+    width: 100%;
+    height: 100%;
+    background:#f1f3f2;
+}
+ol, ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/**********************
+ * content
+ **********************/ 
+.row > div{
+	padding:0;
+}
+.special-box{
+	width:120px;
+	height:120px;
+	background:#fff;
+	margin: 0 auto;
+	margin-top:10px;
+	border-left:1px solid #e7e9e8;
+	border-right:1px solid #e7e9e8;
+	border-bottom:1px solid #dbdddc;
+	box-shadow: 0px 2px 2px #dee0df;
+	font-size: 18px;
+	color:#666666;
+}
+.box-img{
+	width:60px;
+	height: 80px;
+	margin:0 auto;
+}
+.box-img1{
+	background:url(../img/icon.png) -22px 6px;
+	background-size:492px 123px;
+}
+.box-img2{
+	background:url(../img/icon.png) -82px 6px;
+	background-size:492px 123px;
+}
+.box-img3{
+	background:url(../img/icon.png) -146px 6px;
+	background-size:492px 123px;
+}
+.box-img4{
+	background:url(../img/icon.png) -196px 6px;
+	background-size:492px 123px;
+}
+.box-img5{
+	background:url(../img/icon.png) -242px 6px;
+	background-size:492px 123px;
+}
+.box-img6{
+	background:url(../img/icon.png) -296px 6px;
+	background-size:492px 123px;
+}
+.box-img7{
+	background:url(../img/icon.png) -348px 6px;
+	background-size:492px 123px;
+}
+.box-img8{
+	background:url(../img/icon.png) -398px 6px;
+	background-size:492px 123px;
+}

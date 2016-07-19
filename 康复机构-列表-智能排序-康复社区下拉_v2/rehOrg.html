@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>康复机构</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="../lib/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./rehOrg.css" rel="stylesheet"/>
+</head>
+<body>	
+	<section class="nav_condition">
+		<div id="condition" class="btn-group btn-group-justified" role="group" aria-label="...">
+			<div class="col-xs-5 col-sm-5 text-center condition-splite-line ">
+				<div class="btn-group" role="group" aria-label="...">
+					<div class="dropdown" id="myDropdown1">
+					  <button id="btn-condition1" type="button" data-toggle="dropdown" class="btn btn-default"
+					  	aria-haspopup="true" aria-expanded="false">
+					           全部
+					    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="btn-condition1">
+					  	<li><a href="#">
+					  		<span>综合医院</span>
+					  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+					  	</li>
+					  	<li><a href="#">
+					  		<span class="btn-select">康复诊所</span>
+					  		<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
+					  	</li>
+					  	<li><a href="#">
+					  		<span>康复机构</span>
+					  		<span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span></a>
+					  	</li>
+					  </ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-5 col-sm-5 text-center condition-splite-line ">
+				<div class="btn-group" role="group" aria-label="...">
+					<div class="dropdown" id="myDropdown2">
+					  <button id="btn-condition2" type="button"  class="btn btn-default btn-select">
+					           麓山国际
+					    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="btn-condition2">
+					  		<li>
+					  			<div id="myNav">
+									<ul class="nav nav-tabs" role="tablist">
+										<li class="prevent"><a  class="prevent" href="#area" role="tab" data-toggle="tab">区域</a></li>
+									    <li class="active prevent"><a  class="prevent" href="#area_com" role="tab" data-toggle="tab">康复社区</a></li>
+									</ul>
+									<div class="tab-content">
+										<div class="tab-pane" id="area">
+											<div class="container-fluid">
+												<div class="row">
+													<div class="col-xs-5 col-sm-5">
+														<ul class="list-group">
+															<li class="list-group-item">
+																<span>高新区</span>
+															</li>
+															<li class="list-group-item btn-select">
+																<span>武侯区</span>
+															</li>
+															<li class="list-group-item">
+																<span>金牛区</span>
+															</li>
+															<li class="list-group-item">
+																<span>锦江区</span>
+															</li>
+															<li class="list-group-item">
+																<span>成华区</span>
+															</li>
+															<li class="list-group-item">
+																<span>青羊区</span>
+															</li>
+														</ul>
+													</div>
+													<div class="col-xs-7 col-sm-7">
+														<ul class="list-group">
+															<li class="list-group-item">
+																<span>全部</span>
+															</li>
+															<li class="list-group-item">
+																<span class="btn-select">武侯立交</span>
+																<span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span></a>
+															</li>
+															<li class="list-group-item">
+																<span>科华北路</span>
+															</li>
+															<li class="list-group-item">
+																<span>双楠</span>
+															</li>
+															<li class="list-group-item">
+																<span>红牌楼</span>
+															</li>
+															<li class="list-group-item">
+																<span>五大花园</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane active" id="area_com">
+											<ul class="list-group">
+											  <li class="list-group-item">
+											  	<span>鹭岛国际</span><span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span>
+											  </li>
+											  <li class="list-group-item">
+											  	<span class="btn-select">麓山国际</span><span class="glyphicon glyphicon-ok btn-select" aria-hidden="true"></span>
+											  </li>
+											  <li class="list-group-item">
+											  	<span>鹭湖国际</span><span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span>
+											  </li>
+											  <li class="list-group-item">
+											  	<span>英郡</span><span class="glyphicon glyphicon-ok hidden" aria-hidden="true"></span>
+											</ul>
+										</div>
+									</div>
+								</div>
+					  		</li>
+					  	</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-2 col-sm-2 text-center">
+			    <div class="btn-group" role="group" aria-label="...">
+					<div class="search_txt">
+						<span class="glyphicon glyphicon-search btn-select" aria-hidden="true"></span>
+					</div>
+			    </div>
+		    </div>
+		</div>
+	</section>
+	<section class="content">
+		<div class="container-fluid">
+			<div class="row">
+                <div class="col-xs-4 col-sm-2 text-center">
+                    <img class="img-responsive center-block" src="../img/02.jpg" alt="">
+                </div>
+                <div class="col-xs-8 col-sm-10">
+                    <div class="personal_info">
+                        <div class="my_relative">
+                            <span class="hospital-name">四川大学华西医院</span>
+                            <span class="distance">1.5km</span>
+                        </div>
+                        <div>
+                        	<span class="other">三甲</span>
+                        	<span>|</span>
+                        	<span class="other">眼科、外科</span>
+                        </div>
+                        <div class="ellipsis desc">世界规模第一的综合性单点医院</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 col-sm-2 text-center">
+                    <img class="img-responsive center-block" src="../img/03.jpg" alt="">
+                </div>
+                <div class="col-xs-8 col-sm-10">
+                    <div class="personal_info">
+                        <div class="my_relative">
+                            <span class="hospital-name">四川大学华西医院</span>
+                            <span class="distance">1.5km</span>
+                        </div>
+                        <div>
+                        	<span class="other">三甲</span>
+                        	<span>|</span>
+                        	<span class="other">眼科、外科</span>
+                        </div>
+                        <div class="ellipsis">世界规模第一的综合性单点医院</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 col-sm-2 text-center">
+                    <img class="img-responsive center-block" src="../img/04.jpg" alt="">
+                </div>
+                <div class="col-xs-8 col-sm-10">
+                    <div class="personal_info">
+                        <div  class="my_relative">
+                            <span class="hospital-name">四川大学华西医院</span>
+                            <span class="distance">1.5km</span>
+                        </div>
+                        <div>
+                        	<span class="other">三甲</span>
+                        	<span>|</span>
+                        	<span class="other">眼科、外科</span>
+                        </div>
+                        <div class="ellipsis">世界规模第一的综合性单点医院</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 col-sm-2 text-center">
+                    <img class="img-responsive center-block" src="../img/05.jpg" alt="">
+                </div>
+                <div class="col-xs-8 col-sm-10">
+                    <div class="personal_info">
+                        <div class="my_relative">
+                            <span class="hospital-name">四川大学华西医院</span>
+                            <span class="distance">11.5km</span>
+                        </div>
+                        <div>
+                        	<span class="other">三甲</span>
+                        	<span>|</span>
+                        	<span class="other">眼科、外科</span>
+                        </div>
+                        <div class="ellipsis">世界规模第一的综合性单点医院</div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</section>
+	<div class="my_cover" ></div>
+	<script src="../lib/js/jquery.min.js" type="text/javascript" ></script>
+	<script src="../lib/js/bootstrap.js" type="text/javascript" ></script>
+	<script>
+	$(function(){
+		$("#btn-condition2").next(".dropdown-menu").show();
+		$(".my_cover").show();
+		$("#btn-condition1").bind("click",function(e){
+			$("#btn-condition2").next(".dropdown-menu").hide();
+			$(".my_cover").hide();
+		});
+		$("#btn-condition2").bind("click",function(e){
+			var dropdownMenu=$(this).next(".dropdown-menu");
+			var displayAttr=dropdownMenu.css("display");
+			dropdownMenu.toggle();
+			if(displayAttr=="block"){
+				$(".my_cover").hide();
+			}else{
+				$(".my_cover").show();
+			}
+			e.preventDefault();
+			e.stopPropagation();
+		});
+	});
+	</script>
+</body>
+</html>

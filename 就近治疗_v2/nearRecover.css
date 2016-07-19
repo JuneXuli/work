@@ -1,0 +1,189 @@
+/**********************
+ * global
+ **********************/ 
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:#f0eff5;
+}
+ol, ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/**********************
+ * header
+ **********************/ 
+.head-btn-padding {
+	padding: 10px 0;
+}
+header{
+	height:54px;
+	padding:10px 2%;
+	background:#efeff4;
+	box-sizing: border-box;
+	position: relative;
+}
+header .search_txt{
+	color:#8d8d92;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+
+/**********************
+ * nav_condition
+ **********************/ 
+.nav_condition{
+	position: relative;
+	background-color:#fff;
+}
+#condition{
+	line-height: 32px;
+    height: 32px;
+	box-sizing: border-box;
+	border-top:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+}
+.condition-splite-line {
+	border-right: 1px solid #dddddd;
+}
+#condition>div{
+	position: static;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding: 0px 0px;
+}
+/*改变bootstrap默认设置使下拉框宽度100%*/
+#condition .btn-group,.nav_condition .dropdown{
+	position: static;
+}
+#condition .dropdown-menu{
+	left:0;
+	right:0;
+	top:42px;
+	border-radius: 0px;
+	padding-bottom:0;
+	padding-top:0;
+}
+#condition button{
+	border:none;
+}
+#condition  .dropdown-menu > li{
+	position: relative;
+}
+#condition .dropdown-menu .glyphicon{
+	position: absolute;
+	right:15px;
+}
+#myDropdown2 .dropdown-menu{
+	border-left:0;
+	border-right:0;
+}
+.btn-select{
+	color:#4fbbea;
+}
+ #myNav .nav-tabs li{
+	width: 50%;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+#myNav .nav-tabs>li>a{
+	border:2px solid #fff;
+	border-radius: 0;
+	margin:0;
+	color:#555;
+}
+#myNav .nav-tabs>li.active>a, #myNav  .nav-tabs>li.active>a:focus,#myNav .nav-tabs>li.active>a:hover {
+    border-bottom:2px solid #50baea;
+}
+#myNav .list-group {
+    margin-bottom: 0;
+}
+#myNav .list-group-item{
+	border-right:0;
+}
+#myNav .list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#myNav .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#myNav .glyphicon{
+	position: relative;
+	top:20px;
+}
+#myNav .row > div{
+	padding:0;
+}
+.my_cover{
+	position:absolute;
+	top:50px;
+	left:0;
+	right:0;
+	bottom:0;
+	background:rgba(0,0,0,0.5);
+	display: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	z-index:100;
+}
+/**********************
+ * content
+ **********************/ 
+.content .content-title{
+	font-weight: bold;
+	font-size:16px;
+}
+.content .right_content{
+	padding-bottom:12px;
+}
+.content .content-des{
+	color:#888;
+}
+.content .price{
+	color:#50baea;
+	font-size:16px;
+	font-weight: bold;
+}
+.content .count{
+	color:#c3c3c3;
+}
+.content img {
+    /*width: 200px;*/
+    display: initial;
+    margin-right: 30px;
+    margin-top:6px;
+}
+.content .row {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    background:#fff;
+    margin-top:10px;
+}
+.ellipsis{
+	line-height:16px;
+	height:32px;
+	overflow: hidden;
+	position: relative;
+}
+.center-block {
+	width:90px;
+	height:70px;
+}
+@media screen and (min-width: 374px) {
+    .content img {
+	    margin-top:0px;
+	}
+}
+@media screen and (min-width: 767px) {
+    .img-responsive {
+        display: initial;
+    }
+    
+}
+
+
