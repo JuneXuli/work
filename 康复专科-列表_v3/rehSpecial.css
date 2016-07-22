@@ -34,7 +34,7 @@ ol, ul, li{
 }
 .special-box img{
 	width:60%;
-	height:60%;
+	/*height:60%;*/
 	position: relative;
 	left:50%;
 	-webkit-transform: translateX(-50%);

@@ -185,11 +185,20 @@ header .info-top2{
     	font-size: 18px;
     	top:76%;
     }
+    header .head-photo {
+        width: 86px;
+        height: 86px;
+    }
 }
 @media screen and (min-width: 767px) {
 	header .info-top{
 		padding-left:240px;
+
 	}
+    header .head-photo {
+        width: 150px;
+        height: 150px;
+    }
 }
 @media screen and (min-width: 1023px) {
     header .info-top{
@@ -198,4 +207,8 @@ header .info-top2{
     .des-info{
 		padding-top:120px;
 	}
+    header .head-photo {
+        width: 220px;
+        height: 220px;
+    }
 }
