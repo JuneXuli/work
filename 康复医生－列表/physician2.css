@@ -23,13 +23,11 @@ header{
 	box-sizing: border-box;
 	position: relative;
 }
-header .search_txt{
-	color:#8d8d92;
-	position: absolute;
-	left:50%;
-	top:50%;
-	transform: translate(-50%,-50%);
+.search_txt{
+	display: inline-block;
+    padding-top: 8px;
 }
+
 
 /**********************
  * nav_condition
