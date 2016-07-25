@@ -4,6 +4,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    background-color: #d9d9d9;
 }
 ol, ul, li{
     list-style: none;
@@ -234,7 +235,7 @@ footer .glyphicon {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    border-bottom: 1px solid #CCC;
+    border-bottom: 2px solid #CCC;
 }
 .tabs_item {
     display: none;
@@ -251,8 +252,13 @@ footer .glyphicon {
     display: initial;
 }
 .tabs_item .row {
+    background-color: white;
+    margin-top: 8px;
     padding: 3% 0;
     border-bottom: 1px solid rgb(240, 240, 240);
+}
+.tab_content {
+    background-color: #d9d9d9;
 }
 .current a {
     color: #337AB7;
@@ -293,53 +299,29 @@ footer .glyphicon {
     margin-left: 15px;
     margin-right: 15px;
 }
+/*@media screen and (min-width: 374px) {
+    .content .personal_info {
+        margin-top:3%;
+    }
+}
+@media screen and (min-width: 413px) {
+    .content .personal_info {
+        margin-top:4%;
+    }
+}
 
-
-
-
-
-/**
- * user list start
- */
-.table-list {
-    display: table;
+@media screen and (min-width: 767px) {
+    .img-responsive {
+        display: initial;
+    }
+    .content .personal_info {
+        margin-top:1%;
+    }
 }
-.table-list .list-left,
-.table-list .list-right{
-    display: table-cell;
-    vertical-align: middle;
-}
-.table-list .list-left {
-    width: 10%;
-    max-width: 112px;
-}
-.table-list .list-left img {
-    margin-left: 16px;
-    margin-right: 8px;
-    width: 80px;
-    min-width: 80px;
-    height: 80px;
-    min-height: 80px;
-}
-.table-list .list-right {
-    padding: 0px 8px;
-}
-.table-list .list-right div {
-    height: 20px;
-    line-height: 20px;
-}
-.table-list .list-right div.list-ellipsis {
-    height: auto;
-    max-height: 40px;
-    overflow: hidden;
-}
-.table-list .list-left .img-circle-list {
-    height: 80px;
-    width: 80px;
-}
-/**
- * user list end
- */
-
+@media screen and (min-width: 1023px) {
+    .content .personal_info {
+        margin-top:3%;
+    }
+}*/
 
 

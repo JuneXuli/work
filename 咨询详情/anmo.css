@@ -7,84 +7,79 @@ html,body{
     background-color:#f0eff5;
     color:#000;
 }
-ol, ul, li{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-/**********************
- * header
- **********************/
-header{
-	height:22%;
-}
-header img{
-	width:100%;
-	height:100%;
-}
-
-/**********************
- * page-title
- **********************/
-.page-title{
-	background:#fff;
-	width:100%;
-	padding-left:5%;
-/*	padding-top:5px;*/
-	box-sizing: border-box;
-}
-.page-title h4{
-	height: 60px;
-	line-height: 60px;
-	/*padding: 0;*/
-	margin: 0;
-}
-
-/**********************
- * content
- **********************/
-.content .box{
-	width:100%;
-	box-sizing: border-box;
-	margin:10px 0;
-	background:#fff;
-	position: relative;
-}
-.content .sep{
-	width:4px;
-	height:18px;
-	background:#35b8ff;
-	position: absolute;
-	top:10px;
-}
-.content .des-titile{
-	padding:0 5%;
-	line-height:40px;
-	border-bottom: 1px solid #f0eff5;
-	color:#555555;
-	font-size: 16px;
-}
-.content .tit{
-	padding-left:16px;
-}
-.content .des-detail{
-	width:100%;
-	padding:10px 5%;
-	line-height:24px;
-	color:#333333;
-}
-.des-detail:before {
-	content: '●'
+header {
+	margin: 8px 8px;
+	background-color: white;
 
 }
-.content .order-info{
-	font-size: 16px;
-	width: 100%;
-    padding: 10px 5%;
-    line-height: 24px;
-    color: #333333;
+header .title,
+header .table-list {
+	padding-top: 8px;
+    padding-bottom: 8px;
+}
+header .title {
+	border-bottom: 1px solid #d3d3d3;
+	padding-left: 16px;
+}
+header .title .glyphicon-star-empty {
+	color: #5bc0de;
 }
 
-footer {
-	padding: 0 4% 6px 4%;
+.table-list {
+    display: table;
+}
+.table-list .list-left,
+.table-list .list-right{
+    display: table-cell;
+    vertical-align: middle;
+}
+.table-list .list-left {
+    width: 10%;
+    max-width: 112px;
+}
+.table-list .list-left img {
+    margin-left: 16px;
+    margin-right: 8px;
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    min-height: 80px;
+}
+.table-list .list-right {
+    padding: 0px 8px;
+}
+.table-list .list-right div {
+    height: 20px;
+    line-height: 20px;
+}
+.table-list .list-right div.list-ellipsis {
+    height: auto;
+    max-height: 40px;
+    overflow: hidden;
+}
+.table-list .list-left .img-circle-list {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+section {
+	padding: 8px;
+	background-color: white;
+}
+.top {
+	background-color: white;
+}
+.top:after{
+	content: "."; 
+    display: block;
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.top .block-right {
+	border-left: 3px solid #5bc0de;
+	display: inline-block;
+	padding-left: 8px;
 }
