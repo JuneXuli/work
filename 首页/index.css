@@ -293,29 +293,45 @@ footer .glyphicon {
     margin-left: 15px;
     margin-right: 15px;
 }
-/*@media screen and (min-width: 374px) {
-    .content .personal_info {
-        margin-top:3%;
-    }
-}
-@media screen and (min-width: 413px) {
-    .content .personal_info {
-        margin-top:4%;
-    }
-}
 
-@media screen and (min-width: 767px) {
-    .img-responsive {
-        display: initial;
-    }
-    .content .personal_info {
-        margin-top:1%;
-    }
+
+
+
+
+/**
+ * user list start
+ */
+.table-list {
+    display: table;
 }
-@media screen and (min-width: 1023px) {
-    .content .personal_info {
-        margin-top:3%;
-    }
-}*/
+.table-list .list-left,
+.table-list .list-right{
+    display: table-cell;
+    vertical-align: middle;
+}
+.table-list .list-left img {
+    margin-left: 16px;
+}
+.table-list .list-right {
+    width: 70%;
+    max-width: 16px;
+}
+.table-list .list-right div {
+    margin-left: 16px;
+    height: 20px;
+    line-height: 20px;
+}
+.table-list .list-right div.list-ellipsis {
+    height: 40px;
+    overflow: hidden;
+}
+.table-list .list-left .img-circle-list {
+    height: 80px;
+    width: 80px;
+}
+/**
+ * user list end
+ */
+
 
 
