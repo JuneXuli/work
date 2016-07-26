@@ -1,0 +1,255 @@
+/**********************
+ * global
+ **********************/ 
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ol, ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.reset-padding{
+	padding:0;
+}
+/**********************
+ * header
+ **********************/ 
+header{
+	height:22%;
+	position: relative;
+}
+header .head-bg{
+	width:100%;
+	height:100%;
+}
+header .base-info{
+	width:90%;
+	margin-left:5%;
+}
+header .head-photo{
+	width:30%;
+	max-width:220px;
+	max-height:220px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border:4px solid #fff;
+}
+header .info-top{
+	padding-left:35%;
+	color:#fff;
+}
+header .info-top1{
+	position: absolute;
+	top:76%;
+}
+header .info-top2{
+	position: absolute;
+	top:110%;
+}
+.bs-callout {
+    padding-left: 10px;
+    margin: 15px 0;
+    /*border: 1px solid #eee;*/
+    border-left: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout-info {
+    border-left-color: #1b809e;
+}
+
+/**********************
+ * des-info
+ **********************/
+.des-info{
+	padding-top:15%;
+	padding-bottom:30px;
+	width:90%;
+	margin-left:5%;
+}
+.des-info img{
+	position:absolute;
+	width:15px;
+	height:18px;
+}
+.des-info div{
+	/*padding-left:25px;*/
+	color:#666666;
+}
+/**********************
+ * content
+ **********************/ 
+.content .content-title{
+	font-weight: bold;
+	font-size:16px;
+}
+.content .right_content{
+	padding-bottom:12px;
+}
+.content .content-des{
+	color:#888;
+}
+.content .price{
+	color:#50baea;
+	font-size:16px;
+	font-weight: bold;
+}
+.content .count{
+	color:#c3c3c3;
+}
+.ellipsis{
+	line-height:16px;
+	height:32px;
+	overflow: hidden;
+	position: relative;
+}
+
+/**********************
+ * tabs
+ **********************/ 
+.tab {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+.tabs {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid rgb(217, 217, 217);
+ 
+}
+.tabs li {
+    float: left;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    width: 33.333333%;
+    position: relative;
+}
+.tabs a {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #fff;
+    color: #666666;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 1px solid #CCC;
+}
+.tabs_item {
+    display: none;
+}
+.tabs_item:first-child {
+    display: block;
+}
+.tabs_item h4 {
+    font-weight: bold;
+    color: #87d3b7;
+    font-size: 20px;
+}
+.tabs_item img {
+    display: initial;
+    margin-right: 30px;
+}
+.tabs_item .row {
+    padding: 3% 0;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.current a {
+    color: #50baea;
+    border-bottom: 2px solid #50baea;
+}
+.img-rectangle {
+    width:90px;
+    height:70px;
+}
+
+.table-list {
+    display: table;
+}
+.table-list .list-left,
+.table-list .list-right{
+    display: table-cell;
+    vertical-align: middle;
+}
+.table-list .list-left {
+    width: 10%;
+    max-width: 112px;
+}
+.table-list .list-left img {
+    margin-left: 16px;
+    margin-right: 8px;
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    min-height: 80px;
+}
+.table-list .list-right {
+    padding: 0px 8px;
+}
+.table-list .list-right div {
+    height: 20px;
+    line-height: 20px;
+}
+.table-list .list-right div.list-ellipsis {
+    height: auto;
+    max-height: 40px;
+    overflow: hidden;
+}
+.table-list .list-left .img-circle-list {
+    height: 80px;
+    width: 80px;
+}
+.table-list .list-right .list_info_content {
+    height: auto;
+}
+
+@media screen and (min-width: 374px) {
+    header .info-top1{
+    	font-size: 18px;
+    	top:76%;
+    }
+    header .head-photo {
+        width: 86px;
+        height: 86px;
+    }
+}
+@media screen and (min-width: 767px) {
+	header .info-top{
+		padding-left:240px;
+
+	}
+    header .head-photo {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    header .info-top{
+		padding-left:250px;
+	}
+    .des-info{
+		padding-top:120px;
+	}
+    header .head-photo {
+        width: 220px;
+        height: 220px;
+    }
+}

@@ -1,0 +1,248 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+.container-fluid .row {
+    padding: 10px 0;
+    margin-top: 5px;
+    background-color: white;
+}
+.banner {
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner-text{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    padding-left:15px;
+}
+.banner-icon{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+}
+.banner-icon:after {
+    content: '';
+    background: url(../img/icon-hospital.png);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    position: absolute;
+    top:1px;
+}
+
+
+
+
+
+
+
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+
+.bs-callout {
+    padding-left: 10px;
+    margin: 15px 0;
+    /*border: 1px solid #eee;*/
+    border-left: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout-info {
+    border-left-color: #1b809e;
+}
+.text p {
+    color: rgb(184, 184, 184);
+}
+.nav_condition {
+    background-color: white;
+}
+.btn.btn-default {
+    border: 0;
+}
+#condition {
+    position: relative;
+}
+#condition .dropdown-menu {
+    left: 0;
+    right: 0;
+}
+#condition>div {
+    position: static;
+}
+.nav_condition .btn-group,
+.nav_condition .dropdown {
+    position: static;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.label-online {
+    background-color: rgb(2, 227, 157);
+}
+
+.table-list {
+    display: table;
+}
+.table-list .list-left,
+.table-list .list-right{
+    display: table-cell;
+    vertical-align: middle;
+}
+.table-list .list-left {
+    width: 10%;
+    max-width: 112px;
+}
+.table-list .list-left img {
+    margin-left: 16px;
+    margin-right: 8px;
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    min-height: 80px;
+}
+.table-list .list-right {
+    padding: 0px 8px;
+}
+.table-list .list-right div {
+    height: 20px;
+    line-height: 20px;
+}
+.table-list .list-right div.list-ellipsis {
+    height: auto;
+    max-height: 40px;
+    overflow: hidden;
+}
+.table-list .list-left .img-circle-list {
+    height: 80px;
+    width: 80px;
+}
+.table-list .list-right .list_info_content {
+    height: auto;
+}
+.table-list .list-right .user_info{
+	font-weight: bolder;
+	height: auto;
+}
+.table-list .list-right .user_info_name{
+	font-size: 18px;
+    font-weight: bold;
+}
+
+
+/**********************
+ * tabs
+ **********************/ 
+
+/*.tab {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #888;
+    -webkit-font-smoothing: antialiased;
+}
+.tabs {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid rgb(217, 217, 217);
+    background-color: rgb(246, 246, 246);
+ 
+}
+.tabs li {
+    float: left;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    width: 33.333333%;
+    position: relative;
+}
+.tabs a {
+    background-color: white;
+    border-bottom: 1px solid #fff;
+    color: #888;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 1px solid #CCC;
+}
+.tabs_item {
+    display: none;
+}
+.tabs_item:first-child {
+    display: block;
+}
+.tabs_item h4 {
+    font-weight: bold;
+    color: #87d3b7;
+    font-size: 20px;
+}
+.tabs_item img {
+    display: initial;
+    margin-right: 30px;
+}
+.tabs_item .row {
+    padding: 3% 0;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.current a {
+    color: #337AB7;
+    border-bottom: 2px solid #337AB7;
+}
+
+.img-circle-local {
+    width: 80px;
+    height: 80px;
+}
+.img-circle-text {
+    padding-top: 7px;
+}*/
+/*@media screen and (min-width: 374px) {
+    .content .personal_info {
+        margin-top:3%;
+    }
+}
+@media screen and (min-width: 413px) {
+    .content .personal_info {
+        margin-top:4%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .img-responsive {
+        display: initial;
+    }
+    .content .personal_info {
+        margin-top:1%;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .content .personal_info {
+        margin-top:3%;
+    }
+}*/
