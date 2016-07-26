@@ -30,7 +30,6 @@ header .base-info{
 }
 header .head-photo{
 	width:30%;
-	height:30%;
 	max-width:220px;
 	max-height:220px;
 	transform: translateY(-50%);
