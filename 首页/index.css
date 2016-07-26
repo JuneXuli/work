@@ -337,6 +337,9 @@ footer .glyphicon {
     height: 80px;
     width: 80px;
 }
+.table-list .list-right .list_info_content {
+    height: auto;
+}
 /**
  * user list end
  */
