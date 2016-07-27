@@ -55,6 +55,7 @@ header{
 	padding: 0px 0px;
 }
 #condition .dropdown-menu{
+	padding:0;
 	left:0;
 	right:0;
 	top:44px;
@@ -77,11 +78,14 @@ header{
     bottom:0;left:0;z-index:1;background:#737373;
     opacity:0.5;display: none;
  }
- #myDropdown2 li{
+ .dropdown-btngroup li{
  	border-bottom:1px solid #e4e4e4;
  }
-  #myDropdown2 li:last-child{
+ .dropdown-btngroup li:last-child{
  	border-bottom:0;
+ }
+ .dropdown-btngroup .btn-group-justified .btn-group{
+ 	border-right:1px solid #dddddd;
  }
 /**********************
  * content
