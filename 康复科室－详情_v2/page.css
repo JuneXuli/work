@@ -38,6 +38,16 @@ html, body{
     position: absolute;
     top:1px;
 }
+#condition .dropdown-menu > li {
+    position: relative;
+}
+#condition .dropdown-menu .glyphicon {
+    position: absolute;
+    right: 15px;
+}
+.btn-select {
+    color: #4fbbea;
+}
 
 
 

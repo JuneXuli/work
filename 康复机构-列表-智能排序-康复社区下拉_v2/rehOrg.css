@@ -170,7 +170,66 @@ header .search_txt{
     overflow: hidden;
     white-space: nowrap;
 }
-@media screen and (max-width: 374px) {
+
+.table-list {
+    display: table;
+}
+.table-list .list-left,
+.table-list .list-right{
+    display: table-cell;
+    vertical-align: middle;
+}
+.table-list .list-left {
+    width: 10%;
+    max-width: 112px;
+}
+.table-list .list-left img {
+    margin-left: 16px;
+    margin-right: 8px;
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    min-height: 80px;
+}
+.table-list .list-right {
+    padding: 0px 8px;
+}
+.table-list .list-right div {
+    height: 20px;
+    line-height: 20px;
+}
+.table-list .list-right div.list-ellipsis {
+    height: auto;
+    max-height: 40px;
+    overflow: hidden;
+}
+.table-list .list-left .img-circle-list {
+    height: 80px;
+    width: 80px;
+}
+.table-list .list-right .list_info_content {
+    height: auto;
+}
+.table-list .list-right div {
+    height: auto;
+}
+
+.hospital-name {
+    font-size:16px;
+    font-weight: bold;
+    color: #000;
+}
+.distance {
+    color: #888;
+}
+.other {
+    color: #ffac4f;
+    font-weight: bold;
+}
+.desc {
+    color: #909090;
+}
+/*@media screen and (max-width: 374px) {
 	.content .hospital-name{
 		font-size:16px;
 	}
@@ -190,5 +249,5 @@ header .search_txt{
     .content .personal_info{
     	margin-top:3%;
     }
-}
+}*/
 

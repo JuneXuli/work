@@ -165,6 +165,25 @@ header .search_txt{
 .table-list .list-right .list_info_content {
     height: auto;
 }
+.table-list .list-right div {
+    height: auto;
+}
+
+.hospital-name {
+    font-size:16px;
+    font-weight: bold;
+    color: #000;
+}
+.distance {
+    color: #888;
+}
+.other {
+    color: #ffac4f;
+    font-weight: bold;
+}
+.desc {
+    color: #909090;
+}
 /*@media screen and (max-width: 374px) {
 	.content .hospital-name{
 		font-size:16px;
